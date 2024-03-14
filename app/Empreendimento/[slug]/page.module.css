@@ -1,0 +1,402 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+.gradientHere{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1050%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1051%26quot%3b)'%3e%3c/rect%3e%3cpath d='M0 0L426.45 0L0 112.29z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 112.29L426.45 0L810.5699999999999 0L0 116.19000000000001z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 116.19000000000001L810.5699999999999 0L1078.01 0L0 148.36z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 148.36L1078.01 0L1332.44 0L0 285.96000000000004z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1440 560L1164.3600000000001 560L1440 351.48z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1440 351.48L1164.3600000000001 560L964.9000000000001 560L1440 205.44000000000003z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1440 205.44L964.9 560L948.12 560L1440 165.18z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1440 165.18L948.12 560L685.79 560L1440 131.57z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1050'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1051'%3e%3cstop stop-color='rgba(13%2c 122%2c 193%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(35%2c 74%2c 154%2c 1)' offset='0.35'%3e%3c/stop%3e%3cstop stop-color='rgba(35%2c 74%2c 154%2c 1)' offset='0.77'%3e%3c/stop%3e%3cstop stop-color='rgba(12%2c 123%2c 194%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.gradientHereMain{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1050%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1051%26quot%3b)'%3e%3c/rect%3e%3cpath d='M0 0L426.45 0L0 112.29z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 112.29L426.45 0L810.5699999999999 0L0 116.19000000000001z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 116.19000000000001L810.5699999999999 0L1078.01 0L0 148.36z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 148.36L1078.01 0L1332.44 0L0 285.96000000000004z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1440 560L1164.3600000000001 560L1440 351.48z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1440 351.48L1164.3600000000001 560L964.9000000000001 560L1440 205.44000000000003z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1440 205.44L964.9 560L948.12 560L1440 165.18z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1440 165.18L948.12 560L685.79 560L1440 131.57z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1050'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1051'%3e%3cstop stop-color='rgba(13%2c 122%2c 193%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(35%2c 74%2c 154%2c 1)' offset='0.35'%3e%3c/stop%3e%3cstop stop-color='rgba(35%2c 74%2c 154%2c 1)' offset='0.77'%3e%3c/stop%3e%3cstop stop-color='rgba(12%2c 123%2c 194%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+
+
+.mainIframe{
+    border: none;
+    width: 100%;
+    outline: none;
+    height: 280px;
+}
+
+.mainBgTitle{
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.mainBgTitle h1{
+    font-weight: normal;
+    width: 100%;
+    text-align: left;
+    color: var( --textBlackColor);
+}
+
+.mainBgTitle h1 br{
+    display: none;
+}
+
+.mainBgTitle h1 strong{
+    font-size: 30pt;
+    background: rgb(5,144,214);
+    background-clip: text;
+    background: linear-gradient(180deg, rgba(5,144,214,1) 28%, rgba(23,103,179,1) 64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mainContainer{
+    width: 90%;
+    max-width: 1400px;
+}
+
+.maininfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.maininfoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1400px;
+}
+
+.cardInfo{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.infosCardHere{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -35px;
+    align-items: center;
+    padding-top: 100px;
+    border-radius: 0px 0px 30px 30px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.TextHere{
+    width: 95%;
+}
+
+.description{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+}
+
+.borderDetail{
+    width: 40%;
+    min-width: 240px;
+    height: 2px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(170, 170, 170);
+}
+
+.TextHere pre{
+    padding: 25px;
+    font-size: 18pt;
+    text-align: justify;
+    word-wrap: break-word;
+    font-family: var(--Inter);
+    white-space: break-spaces;
+}
+
+.TextHere pre p{
+    text-align: justify;
+    word-wrap: break-word;
+    color: white;
+    font-family: var(--Inter);
+    white-space: break-spaces;
+}
+
+.mainImage{
+    margin-top: -90px;
+    z-index: 10;
+    width: 45%;
+    height: auto;
+    object-fit: fill;
+    border-radius: 30px;
+}
+
+.infoIconsHere{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.infoIconsHere p{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.infoIconsHere p img{
+    height: 15px;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+    .mainBgTitle{
+        background-color: rgb(255, 255, 255);
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+        overflow: hidden;
+        flex-direction: column;
+    }
+    
+    .mainBgTitle h1{
+        font-weight: normal;
+        width: 100%;
+        text-align: left;
+        color: var( --textBlackColor);
+        font-size: 18px;
+    }
+
+    
+    .mainBgTitle h1 strong{
+        font-size: 22pt;
+        background: rgb(5,144,214);
+        background-clip: text;
+        background: linear-gradient(180deg, rgba(5,144,214,1) 28%, rgba(23,103,179,1) 64%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+
+@media screen and (min-width: 850px) and (max-width: 1024px) {
+
+    .mainBgTitle h1{
+        font-weight: normal;
+        width: 100%;
+        text-align: center;
+        color: var( --textBlackColor);
+        font-size: 25px;
+    }
+
+    .mainBgTitle h1 strong{
+        font-size: 35pt;
+        background: rgb(5,144,214);
+        background-clip: text;
+        background: linear-gradient(180deg, rgba(5,144,214,1) 28%, rgba(23,103,179,1) 64%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .maininfoContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        max-width: 1400px;
+    }    
+
+    .cardInfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .mainImage{
+        margin-top: 0px;
+        z-index: 10;
+        width: 100%;
+        height: auto;
+        object-fit: fill;
+        border-radius: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 850px) {
+    .mainBgTitle h1 br{
+        display: none;
+    }
+    .mainBgTitle h1{
+        font-weight: normal;
+        width: 100%;
+        text-align: center;
+        color: var( --textBlackColor);
+        font-size: 25px;
+    }
+
+    .mainBgTitle h1 strong{
+        font-size: 35pt;
+        background: rgb(5,144,214);
+        background-clip: text;
+        background: linear-gradient(180deg, rgba(5,144,214,1) 28%, rgba(23,103,179,1) 64%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .maininfoContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        max-width: 1400px;
+    }    
+
+    .cardInfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .mainImage{
+        margin-top: 0px;
+        z-index: 10;
+        width: 100%;
+        height: auto;
+        object-fit: fill;
+        border-radius: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 550px) {
+    .mainBgTitle h1 br{
+        display: none;
+    }
+
+    .mainBgTitle h1{
+        font-weight: normal;
+        width: 100%;
+        text-align: center;
+        color: var( --textBlackColor);
+        font-size: 20px;
+    }
+
+    .mainBgTitle h1 strong{
+        font-size: 25pt;
+        background: rgb(5,144,214);
+        background-clip: text;
+        background: linear-gradient(180deg, rgba(5,144,214,1) 28%, rgba(23,103,179,1) 64%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .maininfoContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+        max-width: 1400px;
+    }    
+
+    .cardInfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .mainImage{
+        margin-top: 0px;
+        z-index: 10;
+        width: 100%;
+        height: auto;
+        object-fit: fill;
+        border-radius: 30px;
+        margin-bottom: 50px;
+    }
+
+    .description{
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 14pt;
+    }
+
+    .TextHere pre{
+        padding: 20px;
+        font-size: 15pt;
+        text-align: justify;
+        word-wrap: break-word;
+        font-family: var(--Inter);
+        white-space: break-spaces;
+    }
+    
+    .TextHere pre p{
+        text-align: justify;
+        word-wrap: break-word;
+        color: white;
+        font-family: var(--Inter);
+        white-space: break-spaces;
+    }
+
+    .infoIconsHere p img{
+        height: 15px;
+        width: auto;
+        margin: 15px;
+        margin-bottom: unset;
+    }
+    
+    
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 1024px){
+    .quemSomosImage{
+      width: 100%;
+      height: 400px;
+      background-size: cover;
+      background-position: center;
+    }
+  }
