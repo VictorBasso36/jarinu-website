@@ -48,13 +48,7 @@ export default function Navbar() {
                               
                             </Link>
                         </li>
-                        <li>
-                            <Link href="https://adm059450.superlogica.net/clients/areadocliente" target="_blank">
-                                <button className={styles.mainButton}>
-                                    <p><strong>Área do Cliente</strong></p>
-                                </button>
-                            </Link>
-                        </li>
+                        
                         <br />
                     </ul> 
                 </div>

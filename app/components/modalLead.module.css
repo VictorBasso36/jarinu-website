@@ -62,7 +62,7 @@
 
 
 .modal h1 span{
-    color: var(--mainColor);
+    color: #90aa04;
 }
 
 .modal form{
@@ -83,7 +83,7 @@
 
 
 .modal form p{
-    color: var(--mainColor);
+    color: #90aa04;
     font-size: 18pt;
     font-weight: bold;
 }
@@ -92,7 +92,7 @@
     cursor: pointer;
     padding: 30px;
     transition: all 500ms ease-in-out;
-    background-color: var(--mainColor);
+    background-color: #90aa04;
     /* clip-path: polygon(0 0, 100% 5%, 100% 90%, 0% 100%); */
 }
 
@@ -107,7 +107,7 @@
 
 .mainButton p span{
     font-weight: bold;
-    color: var(--suportColor);
+    color: #ffffff;
 }
 
 
@@ -136,7 +136,7 @@
     
     
     .modal h1 span{
-        color: var(--mainColor);
+        color: #90aa04;
     }
     
 }
