@@ -5,9 +5,9 @@ import { OpenProvider } from './providers/providers'
 const inter = Inter({ subsets: ["latin"], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900', ], variable: '--Inter' }, );
 
 export const metadata: Metadata = {
-  title: "Vila Sul - Empreendimentos Imobiliários",
-  description: "Empreendimentos Imobiliários",
-  icons: "/villasulmainlogo.svg"
+  title: "Jarinu - Imob - Inteligência Imobiliária",
+  description: "Imob - Inteligência Imobiliária",
+  icons: "/mainlogo.svg"
 };
 
 export default function RootLayout({
