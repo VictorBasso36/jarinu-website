@@ -17,9 +17,24 @@ export default function MainBanner() {
               <h1><span>Alto Padrão de</span><br />
               <strong>JARINU</strong></h1>
               <div className={styles.detail}></div>
-              <p>More no interior de São Paulo com muita qualidade de vida, segurança e elegância.</p>
+              <p className={styles.description}>More no interior de São Paulo com muita qualidade de vida, segurança e elegância.</p>
               <div className={styles.mainIcons}>
-
+                <div className={styles.Icon}>
+                  <Image src="/piscinaIcon.svg" alt="Piscinas do Jarinu - Imob - Vantagens de morar em Jarin" height={40} width={40}></Image>
+                  <p>Piscina Privativa</p>
+                </div>
+                <div className={styles.Icon}>
+                  <Image src="/metragemIcon.svg" alt="580m2 Área Total - Imob - Vantagens de morar em Jarin" height={40} width={40}></Image>
+                  <p>580m2 Área Total</p>
+                </div>
+                <div className={styles.Icon}>
+                  <Image src="/arvoreIcon.svg" alt="Cercado de Área Verde - Imob - Vantagens de morar em Jarin " height={40} width={40}></Image>
+                  <p>Cercado de Área Verde</p>
+                </div>
+                <div className={styles.Icon}>
+                  <Image src="/carIcon.svg" alt="4 Vagas - Imob - Vantagens de morar em Jarinu" height={40} width={40}></Image>
+                  <p>4 Vagas</p>
+                </div>
               </div>
             </div>
         </div>

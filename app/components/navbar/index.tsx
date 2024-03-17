@@ -33,12 +33,12 @@ export default function Navbar() {
                         </li>
                         <li>
                             <Link href="/Portfolio">
-                                {pathname === "/Portfolio" ? <p><strong>Portfólio</strong></p> : <p>Portfólio</p>}
+                                {pathname === "/Portfolio" ? <p><strong>Localização</strong></p> : <p>Localização</p>}
                             </Link>
                         </li>
                         <li>
                         <Link href="/#InvestaConosco">
-                                {pathname === "/InvistaConosco" ? <p><strong>Invista conosco</strong></p> : <p>Invista conosco</p>}
+                                {pathname === "/InvistaConosco" ? <p><strong>Fotos</strong></p> : <p>Fotos</p>}
          
                             </Link>
                         </li>
