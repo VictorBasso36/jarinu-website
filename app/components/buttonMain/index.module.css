@@ -6,6 +6,7 @@
     border: none;
     border-radius: 12px;
     overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.884)!important;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,7 +21,7 @@
     align-items: center;
     justify-content: center;
     transition: all 500ms ease-in-out;
-    background-color: var(--mainColor);
+    background-color: #3c4317c9;
 }
 
 .texthere{
@@ -29,22 +30,26 @@
     height: 100%;
     align-items: center;
     transition: all 500ms ease-in-out;
-    background-color: var(--mainBoldColor);
+    background-color:  rgba(255, 255, 255, 0.884)!important;
     justify-content: center;
 }
 
 .texthere p{
-    color: white;
+    color: #3c4317;
     font-size: 20px;
     font-weight: bold;
 }
 
-.main:hover .DetailMain{
-    background-color: var(--mainBoldColor);
+.DetailMain:hover{
+    background-color: #3c4317!important;
 }
 
-.main:hover .texthere{
-    background-color: var(--mainColor);
+.texthere:hover{
+    background-color: #90aa04!important;
+}
+
+.texthere:hover .texthere p{
+    color: white!important;
 }
 
 

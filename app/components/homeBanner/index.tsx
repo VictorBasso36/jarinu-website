@@ -37,8 +37,11 @@ export default function MainBanner() {
                 </div>
               </div>
             </div>
+            <br />
+            <ButtonMain textstring="Conheça o Empreendimento" key={1} />
         </div>
-    </section>
+    </section>~
+
     </>
   );
 }
