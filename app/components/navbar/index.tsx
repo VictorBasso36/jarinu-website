@@ -28,23 +28,23 @@ export default function Navbar() {
                     <ul>
                         <li>
                             <Link href="/">
-                                {pathname === "/Contato" ? <p><strong>Home</strong></p> : <p>Home</p>}
+                                 <p>Home</p>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/Portfolio">
-                                {pathname === "/Portfolio" ? <p><strong>Localização</strong></p> : <p>Localização</p>}
+                            <Link href="/#Local">
+                                <p>Localização</p>
                             </Link>
                         </li>
                         <li>
-                        <Link href="/#InvestaConosco">
-                                {pathname === "/InvistaConosco" ? <p><strong>Fotos</strong></p> : <p>Fotos</p>}
+                        <Link href="/#Fotos">
+                               <p>Fotos</p>
          
                             </Link>
                         </li>
                         <li>
                             <Link href="/#Contato">
-                                {pathname === "/InvistaConosco" ? <p><strong>Contato</strong></p> : <p>Contato</p>}
+                             <p>Contato</p>
                               
                             </Link>
                         </li>
@@ -63,22 +63,22 @@ export default function Navbar() {
                 <ul>
                     <li>
                         <Link href="/">
-                            <p><strong>Home</strong></p>
+                            <p>Home</p>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/#Lancamentos">
+                        <Link href="/#Local">
                           <p>Localização</p>
                         </Link>
                     </li>
 
                     <li>
-                        <Link href="/Portfolio">
+                        <Link href="/#Fotos">
                             <p>Fotos</p>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/#InvestaConosco">
+                        <Link href="/#Contato">
                           <p>Contato</p>
                         </Link>
                     </li>

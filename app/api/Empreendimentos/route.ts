@@ -126,8 +126,8 @@ export async function GET(req: NextRequest, res: NextResponse) {
               },
               {
                 type: "Edifício",
-                slug: "Vila-Sul",
-                titulo: "Vila Sul",
+                slug: "Jarinu",
+                titulo: "Jarinu",
                 size: "56m²",
                 quartos: 2,
                 simpleName: "Sto. André",
@@ -139,49 +139,70 @@ export async function GET(req: NextRequest, res: NextResponse) {
                 endereco: "Rua Muller, 335 - Sto. André",
                 enderecoMaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.5318512902813!2d-46.5482798!3d-23.6926941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4236f028ca21%3A0x320db3d178d04a76!2sAv.%20Pereira%20Barreto%2C%2012%20-%20Baeta%20Neves%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009751-000!5e0!3m2!1spt-BR!2sbr!4v1708796778665!5m2!1spt-BR!2sbr",
                 fotos: [{
-                    description: "Imagem Vila Sul",
-                    url: "/foto-de-um-predio-alto-e-alto_181624-2214.avif"
+                    description: "Imagem Jarinu - Imob",
+                    url: "/FACHADA_1 - Photo.jpg"
                 },
                 {
-                    description: "Imagem Vila Sul",
-                    url: "/foto-de-um-predio-alto-e-alto_181624-2214.avif"
+                    description: "Imagem Jarinu - Imob",
+                    url: "/FACHADA_2 - Foto.jpg"
                 },
                 {
-                    description: "Imagem Vila Sul",
-                    url: "/foto-de-um-predio-alto-e-alto_181624-2214.avif"
+                    description: "Imagem Jarinu - Imob",
+                    url: "/FACHADA_3 - Foto.jpg"
+                },
+                {
+                    description: "Imagem Jarinu - Imob",
+                    url: "/FACHADA_4 - Foto.jpg"
+                },
+                {
+                    description: "Imagem Jarinu - Imob",
+                    url: "/FACHADA_5 - Foto.jpg"
+                },
+                {
+                    description: "Imagem Jarinu - Imob",
+                    url: "/FACHADA_6 - Foto.jpg"
+                },
+                {
+                    description: "Imagem Jarinu - Imob",
+                    url: "/FACHADA_3 - Foto.jpg"
+                },
+                {
+                    description: "Imagem Jarinu - Imob",
+                    url: "/piscina.PNG"
+                },
+                {
+                    description: "Imagem Jarinu - Imob",
+                    url: "/piscina2.PNG"
                 }],
                 progresso: [{
-                    name: "Infra-estrutura",
-                    percent: "95%"
+                    name: "Terraplanagem",
+                    percent: "100%"
+                },
+                {
+                    name: "Fundação",
+                    percent: "100%"
                 },
                 {
                     name: "Estrutura",
-                    percent: "25%"
+                    percent: "100%"
                 },
                 {
                     name: "Alvenaria",
-                    percent: "65%"
+                    percent: "100%"
+                },
+                {
+                    name: "Cobertura",
+                    percent: "100%"
                 },
                 {
                     name: "Instalações",
+                    percent: "100%"
+                },
+                {
+                    name: "Acabamentos",
                     percent: "80%"
                 },
-                {
-                    name: "Revestimentos",
-                    percent: "35%"
-                },
-                {
-                    name: "Esquadrias",
-                    percent: "50%"
-                },
-                {
-                    name: "Pintura",
-                    percent: "10%"
-                },
-                {
-                    name: "Limpeza Final",
-                    percent: "0%"
-                }
+
                 ],
               }
         ]

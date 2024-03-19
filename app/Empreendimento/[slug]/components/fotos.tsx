@@ -34,7 +34,7 @@ export default function Fotos({data}: FotosProps) {
   };
 
   return (
-    <section className={styles.main}>
+    <section className={styles.main} id="Fotos">
       <div className={styles.mainContainer}>
         <h2>Fotos do <strong>Empreendimento:</strong></h2>
         <Swiper

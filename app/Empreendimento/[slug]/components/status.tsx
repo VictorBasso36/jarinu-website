@@ -14,7 +14,7 @@ interface StatusProps {
 
 export default function Status({data}: StatusProps) {
   return (
-    <section className={styles.main}>
+    <section className={styles.main} >
       <div className={styles.mainContainer}>
         <h3>Progresso das <strong>Obras:</strong></h3>
         <div className={styles.contentState}>

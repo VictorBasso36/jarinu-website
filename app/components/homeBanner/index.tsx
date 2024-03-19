@@ -12,7 +12,7 @@ export default function MainBanner() {
     </div>
     <section className={styles.main}>
         <Image className={styles.bannerimg} width={1500} height={630} src="/mainbgbannerBottom.png" alt=""></Image>
-        <div className={styles.mainContainer}>
+        <div className={styles.mainContainer} style={{zIndex: 2}}>
             <div className={styles.contentH1}>
               <h1><span>Alto Padrão de</span><br />
               <strong>JARINU</strong></h1>

@@ -17,17 +17,16 @@ export default function Footer() {
               </li>
               <li>
                 <h5>SOBRE</h5>
-                <p><Link href="/Lancamentos">Lançamentos</Link></p>
-                <p><Link href="/Lancamentos">Portfólio</Link></p>
-                <p><Link href="/Lancamentos">Invista</Link></p>
-                <p><Link href="/Lancamentos">Contatos</Link></p>
+                <p><Link href="/">Home</Link></p>
+                <p><Link href="/#Local">Localização</Link></p>
+                <p><Link href="/#Fotos">Fotos</Link></p>
+                <p><Link href="/#Contato">Contato</Link></p>
               </li>
               <li>
                 <h5>CONTATO</h5>
                 <p>Fala com um<br /> de nossos especialistas:</p>
-                <p><a href=""><strong>(11) 4994-0522</strong></a></p>
-                <p><a href="">Rua Adolfo Bastos, 598 | Sala 11
-                Santo André - SP | CEP 09041-000</a></p>
+                <p><a href="tel: 11976946555"><strong>(11) 97694-6555</strong></a></p>
+                <p><a href="https://www.google.com/maps/place/Res.+Lagos+de+Jarinu+-+Machadinho,+Jarinu+-+SP,+13240-000/@-23.0665513,-46.6888852,17z/data=!3m1!4b1!4m6!3m5!1s0x94ced00ca6fad2a3:0x10243352ff9fe8f8!8m2!3d-23.0665513!4d-46.6888852!16s%2Fg%2F11h1yfncqz?entry=ttu" target="_blank">Avenida Copacabana, 325, Alphaville.</a></p>
               </li>
               <li>
                 <h5>ATENDIMENTO</h5>
