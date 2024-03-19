@@ -27,7 +27,7 @@ export default function Navbar() {
                 <div className={styles.ModalHere}>
                     <ul>
                         <li>
-                            <Link href="/">
+                            <Link href="/#home">
                                  <p>Home</p>
                             </Link>
                         </li>
@@ -56,13 +56,13 @@ export default function Navbar() {
         }
         <nav className={styles.main}>
             <div className={styles.containerNav}>
-                <Link href="/" title="Conheça o Vila Sul Empreendimentos - Melhores Imovéis para investir !">
+                <Link href="/#home" title="Conheça o Vila Sul Empreendimentos - Melhores Imovéis para investir !">
 
                    <Image src="/mainlogo.svg" width={130} height={130} alt="Imob - inteligência Imobiliária - Jarinu"></Image>
                 </Link>
                 <ul>
                     <li>
-                        <Link href="/">
+                        <Link href="/#home">
                             <p>Home</p>
                         </Link>
                     </li>
