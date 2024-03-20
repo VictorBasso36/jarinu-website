@@ -7,7 +7,16 @@ const inter = Inter({ subsets: ["latin"], weight: ['100', '200', '300', '400', '
 export const metadata: Metadata = {
   title: "Jarinu - Imob - Inteligência Imobiliária",
   description: "Imob - Inteligência Imobiliária",
-  icons: "/mainlogo.svg"
+  icons: "/mainlogo.svg",
+  authors: [{
+    name: 'Guilherme Luziac',
+    url: 'https://www.linkedin.com/in/guilherme-carvalho-bispo/?originalSubdomain=br'
+  },
+  {
+    name: 'Victor Basso Dev',
+    url: 'www.linkedin.com/in/victor-basso-b3090a189'
+  }  
+  ],
 };
 
 export default function RootLayout({
