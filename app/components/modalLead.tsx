@@ -35,7 +35,8 @@ export default function ModalLead() {
       e.preventDefault();
       sucess && null
       try {
-        const response = await fetch('/api/email', {
+
+        const response = await fetch('http://localhost:3000/api/email', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -48,13 +49,13 @@ export default function ModalLead() {
                 email: formData?.Email
             }),
         });
+        console.log(response)
   
         if (response.ok) {
           const responseData = await response.json();
           setSucess(true)
-       
-          window.location.href = 'google.com';
-          
+          window.open('https://api.whatsapp.com/send?phone=5511976946555&text=Ol%C3%A1,%20adorei%20o%20Jarinu%20-%20Alto%20padr%C3%A3o%20!%20e%20gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20!', '_blank')
+
         } else {
           console.error('Erro na solicitação:', response.status, response.statusText);
           // Lide com o erro conforme necessário

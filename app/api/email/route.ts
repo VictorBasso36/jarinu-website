@@ -14,9 +14,9 @@ export interface Data{
 
 export async function POST(req: NextRequest, res: NextResponse) {
     const dataItems = await req.json();
-    console.log('@Contact', dataItems);
+
     const items = dataItems;
-    console.log('@links', items);
+    console.log(items)
     try {
 
         const transporter = nodemailer.createTransport({
@@ -29,6 +29,8 @@ export async function POST(req: NextRequest, res: NextResponse) {
                 pass: process.env.PASS
             }
         })
+        console.log('logou', transporter)
+
 
         const mailOption = {
             from: 'Guilherme@luziac.com.br',
@@ -43,11 +45,15 @@ export async function POST(req: NextRequest, res: NextResponse) {
         <li> Email: ${items?.data?.email || items?.email}</li>
         `
         }
-        console.log(mailOption)
+
+        console.log('mainlog', mailOption)
         await transporter.sendMail(mailOption)
+      
 
         return NextResponse.json({ message: "Email Sent Successfully" }, { status: 200 })
     } catch (error) {
+        console.log("n foi")
+
         return NextResponse.json({ message: "Failed to Send Email" }, { status: 500 })
     }
 }
