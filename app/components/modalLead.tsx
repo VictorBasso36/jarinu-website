@@ -35,7 +35,7 @@ export default function ModalLead() {
       e.preventDefault();
       sucess && null
       try {
-        const response = await fetch('/pages/api/email', {
+        const response = await fetch('/api/email', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -53,7 +53,7 @@ export default function ModalLead() {
           const responseData = await response.json();
           setSucess(true)
        
-          window.location.href = 'https://wa.me/5511992070343?text=Oii!%20Vi%20o%20site%20da%20Luziac%20e%20quero%20potencializar%20minhas%20vendas%20com%20Marketing%20Imobili%C3%A1rio,%20pode%20me%20ajudar?%22';
+          window.location.href = 'google.com';
           
         } else {
           console.error('Erro na solicitação:', response.status, response.statusText);
