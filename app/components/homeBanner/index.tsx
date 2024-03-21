@@ -40,7 +40,7 @@ export default function MainBanner() {
             <br />
             <ButtonMain textstring="Conheça o Empreendimento" key={1} />
         </div>
-    </section>~
+    </section>
 
     </>
   );
