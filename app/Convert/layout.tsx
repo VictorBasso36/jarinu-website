@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
-import { OpenProvider } from './providers/providers'
+import "../globals.css";
+import { OpenProvider } from '../providers/providers'
 import Script from "next/script";
 const inter = Inter({ subsets: ["latin"], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900', ], variable: '--Inter' }, );
 
 export const metadata: Metadata = {
-  title: "Jarinu - Imob - Inteligência Imobiliária - Agradecimento",
+  title: "Jarinu - Imob - Inteligência Imobiliária",
   description: "Imob - Inteligência Imobiliária",
   icons: "/mainlogo.svg",
   authors: [{
@@ -27,8 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <OpenProvider key={0}>
-        <head>
+       <head>
           <Script
             id="gtm-script"
             strategy="afterInteractive"
@@ -43,10 +42,10 @@ export default function RootLayout({
             }}
           />
         </head>
-        <body className={inter.className}>
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5FBCK62"
+      <OpenProvider key={0}>
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5FBCK62"
         height="0" width="0" style={{display:'none', visibility:'hidden'}}></iframe></noscript>
-          {children}</body>
+        <body className={inter.className}>{children}</body>
       </OpenProvider>
     </html>
   );

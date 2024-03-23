@@ -54,7 +54,8 @@ export default function ModalLead() {
         if (response.ok) {
           const responseData = await response.json();
           setSucess(true)
-          window.open('https://api.whatsapp.com/send?phone=5511976946555&text=Ol%C3%A1,%20adorei%20o%20Jarinu%20-%20Alto%20padr%C3%A3o%20!%20e%20gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20!', '_blank')
+          window.open('/Convert', '_blank')
+
 
         } else {
           console.error('Erro na solicitação:', response.status, response.statusText);
