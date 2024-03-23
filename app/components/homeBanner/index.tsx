@@ -60,7 +60,7 @@ export default function MainBanner() {
             {!pathname.includes("/Convert") &&
             <ButtonMain textstring="Conheça o Empreendimento" key={1} />}
         </div>
-    </section>~
+    </section>
 
     </>
   );
